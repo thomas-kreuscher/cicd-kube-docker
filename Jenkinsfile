@@ -2,10 +2,12 @@ pipeline {
     
 	agent any
 
+/*
 	tools {
         maven "maven3"
         jdk "OracleJDK17"
     }
+*/
 	
     environment {
         registry = "thomaskreuscher/vproappdock"
